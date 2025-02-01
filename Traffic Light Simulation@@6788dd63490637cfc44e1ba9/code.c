@@ -2,12 +2,12 @@
 int main() {
     char a;
     scanf("%c%c",&a ,&b);
-    if(a=='G'){
-        printf("Go");
+    if(a=='R'){
+        printf("Stop");
     }
     else{
-        if(a=='R'){
-            printf("Stop");
+        if(a=='G'){
+            printf("Go");
         }
         else{
             if(a=='Y'){
