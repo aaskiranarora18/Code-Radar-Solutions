@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a;
+    char a;
     printf("");
     scanf("%d",&a);
     if(a=='A'){
@@ -21,6 +21,9 @@ int main() {
                 else{
                     if(a=='F'){
                         printf("Fail");
+                    }
+                    else{
+                        printf("Invalid grade");
                     }
                 }
             }
