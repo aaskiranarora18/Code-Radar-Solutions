@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-     int n,m;
+    int n,m;
     char l;
     scanf("%d %d %c",&n,&m,&l);
     if (l=='+'){
@@ -19,8 +19,7 @@ int main() {
     else if(l=='*'){
         printf("%d",n*m);
     }
-    else{
+    else
     printf("Error: Invalid operator");
-    }
     return 0;
 }
