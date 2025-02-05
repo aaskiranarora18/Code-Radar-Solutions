@@ -2,18 +2,17 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(isalpha(a)){
-    if(isupper(a)){
+    
+    if(a>='A'&& a<='z'){
         printf("Uppercase");
     }
     else{
-        if(islower(a)){
+        if(a>='a'&& a<='z' ){
             printf("Lowercase");
         }
         else{
             printf("Not an alphabet");
         }
-    }
     }
     return 0;
 }
