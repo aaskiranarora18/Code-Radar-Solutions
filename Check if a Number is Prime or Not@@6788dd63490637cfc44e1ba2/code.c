@@ -9,11 +9,11 @@ int main() {
             c=1;
         }
      }
-     if(c==1){
-        printf("Non Prime");
+     if(c==0){
+        printf("Prime");
      }
      else{
-        printf("Prime");
+        printf("Non Prime");
      }
     return 0;
 }
