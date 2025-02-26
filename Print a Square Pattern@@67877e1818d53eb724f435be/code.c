@@ -3,14 +3,13 @@
 
 int main() {
     int n, i, j;
-    
-    scanf("%d", &n); // Taking input for the size of the square
-
-    for(i = 1; i <= n; i++) { // Loop for rows
-        for(j = 1; j <= n; j++) { // Loop for columns
+    printf("");
+    scanf("%d", &n); 
+    for(i = 1; i <= n; i++) { 
+        for(j = 1; j <= n; j++) { 
             printf("* ");
         }
-        printf("\n"); // Move to the next line
+        printf("\n"); 
     }
 
     return 0;
