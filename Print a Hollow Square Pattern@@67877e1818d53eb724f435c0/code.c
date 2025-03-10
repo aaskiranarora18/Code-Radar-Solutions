@@ -13,7 +13,7 @@ int main() {
         for (j = 1; j <= n; j++) {
             // Print '*' for the border, otherwise print space
             if (i == 1 || i == n || j == 1 || j == n) {
-                printf("* ");
+                printf("*");
             } else {
                 printf(" ");
             }
