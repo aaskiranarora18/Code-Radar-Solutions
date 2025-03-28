@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int k,a[50];
-    int max[0],min[0];
+    int max,min;
     printf("");
     scanf("%d",&k);
     for(int i=0;i<k;i++){
