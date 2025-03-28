@@ -1,5 +1,5 @@
 // Your code here...
-#incluse <stdio.h>
+#include <stdio.h>
 int main(){
     int k,a[50],c=0;
     printf("");
