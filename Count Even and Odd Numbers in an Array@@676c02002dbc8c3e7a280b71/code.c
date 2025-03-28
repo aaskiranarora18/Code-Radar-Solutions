@@ -11,7 +11,7 @@ int main(){
         scanf("%d",&k[i]);
     }
     for(int i=1;i<=a;i++){
-        if(a[i]%2==0){
+        if(k[i]%2==0){
             c=c+1;
         }
         else{
