@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int k,a[50],max,min;
+    int k,a[50],max[0],min[0];
     printf("");
     scanf("%d",&k);
     for(int i=0;i<k;i++){
