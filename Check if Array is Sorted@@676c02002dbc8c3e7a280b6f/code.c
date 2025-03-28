@@ -10,6 +10,7 @@ int main(){
     for(int i=1;i<k;i++){
         if(a[i]<=a[i-1]){
            c=1;
+           break;
         }
     }
     if(c==1){
