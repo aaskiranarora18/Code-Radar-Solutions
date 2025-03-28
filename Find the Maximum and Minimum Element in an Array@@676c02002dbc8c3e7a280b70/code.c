@@ -16,4 +16,5 @@ int main(){
         }
     }
     printf("%d %d",min ,max);
+    return 0;
 }
