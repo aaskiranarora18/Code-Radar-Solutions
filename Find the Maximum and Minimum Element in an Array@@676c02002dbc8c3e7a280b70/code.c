@@ -9,10 +9,10 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=1;i<k;i++){
-        if(a[i]>=max){
+        if(a[i]>max){
             max=a[i];
         }
-        if(a[i]<=min){
+        if(a[i]<min){
             min=a[i];
         }
     }
