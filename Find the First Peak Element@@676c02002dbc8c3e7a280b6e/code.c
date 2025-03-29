@@ -10,7 +10,7 @@ int main(){
     for(int i=1;i<=k;i++){
         scanf("%d",&a[i]);
     }
-    for(int i=1;i<=k-1;i++){
+    for(int i=1;i<=k;i++){
         if(a[i]>h){
             h=a[i];
         }
