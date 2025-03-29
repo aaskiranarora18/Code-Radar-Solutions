@@ -14,11 +14,6 @@ int main(){
         if(a[i]>h){
             h=a[i];
         }
-        else{
-           if(a[i]==-1){
-            h=-1;
-           }
-        }
     }
     printf("%d",h);
     return 0;
